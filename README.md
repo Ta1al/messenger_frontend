@@ -1,5 +1,32 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Project Structure
+
+```
+messenger_frontend/
+├── public/                 # Static assets (images, icons)
+├── src/
+│   └── app/
+│       ├── auth/           # Authentication page
+│       │   ├── auth.css
+│       │   └── page.tsx
+│       ├── chats/          # Chat page
+│       │   ├── chats.css
+│       │   └── page.tsx
+│       ├── profile/        # User profile page
+│       │   ├── profile.css
+│       │   └── page.tsx
+│       ├── favicon.ico
+│       ├── globals.css
+│       ├── layout.tsx
+│       └── page.tsx
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+├── postcss.config.mjs
+└── tsconfig.json
+```
+
 ## Getting Started
 
 First, run the development server:
